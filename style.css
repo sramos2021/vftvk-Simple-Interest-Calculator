@@ -1,16 +1,33 @@
 
-
-body {
+ 
+ 
+.container {
     background-color:white;
-    width: 90%;
     border-radius: 20px;
-    border: 2px solid white;
-    justify-content: center;
-    margin: 20px;
-    padding: 10px;
+    height: auto;
+   
+
 
 }
-h1{color:grey;}
 
+.body {
+    background-color:black;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+     
 
+}
+h1 {
+    color:grey;
+    margin-top: 5px;
+    padding-top: 25px;
+    padding-bottom: 2px;
+    text-align: center;
+    font-size: 38px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
 
+}
+
+p:before { content:"\00a9"; }
