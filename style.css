@@ -4,6 +4,7 @@ body {
     border-radius: 20px;
     border: 2px solid RED;
     justify-content: center;
+    margin: 20px;
 
 }
 h1{color:grey;}
