@@ -1,4 +1,10 @@
-body {background-color:white;}
+body {
+    background-color:white;
+    width: 90%;
+    border-radius: 20px;
+
+}
 h1{color:grey;}
+
 
 
