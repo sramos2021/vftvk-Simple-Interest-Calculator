@@ -1,25 +1,27 @@
 
+ body {background-color:black;font-family:arial;color:white}
  
- 
-.container {
+/* .container {
     background-color:white;
     border-radius: 20px;
     height: auto;
    
 
 
-}
+} */
 
-.body {
-    background-color:black;
-    margin-left: 25px;
-    margin-right: 25px;
-    margin-bottom: 25px;
-    text-align: center;
+.maindiv {
+    background-color:white;
+    color: black;
+    width:300px;
+    padding:20px;
+    border-radius:25px;
+    align-content: center;
+    border-radius: 25px;
      
 
-}
-h1 {
+    }
+/* h1 {
     color:grey;
     margin-top: 5px;
     padding-top: 25px;
@@ -28,6 +30,5 @@ h1 {
     font-size: 38px;
     font-family:Verdana, Geneva, Tahoma, sans-serif
 
-}
-
-p:before { content:"\00a9"; }
+} */
+h1{color:grey;font-family:verdana;}
