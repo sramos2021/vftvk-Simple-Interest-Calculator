@@ -1,5 +1,5 @@
 
- body {background-color:black;font-family:arial;color:white}
+ body {background-color:black;font-family:arial;color:white; height:600px;}
  
 /* .container {
     background-color:white;
@@ -16,11 +16,14 @@
     width:300px;
     padding:20px;
     border-radius:25px;
-    align-content: center;
+    text-align: center;
     border-radius: 25px;
-     
-
+      
     }
+
+    /* #principal, #years, #rate_val{
+        margin:auto ;
+        border: 3px solid green; } */
 /* h1 {
     color:grey;
     margin-top: 5px;
