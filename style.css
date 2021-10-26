@@ -1,37 +1,27 @@
 
  body {background-color:black;font-family:arial;color:white; height:600px;}
- 
-/* .container {
-    background-color:white;
-    border-radius: 20px;
-    height: auto;
-   
-
-
-} */
 
 .maindiv {
     background-color:white;
     color: black;
-    width:300px;
+    width:500px;
     padding:20px;
     border-radius:25px;
-    text-align: center;
+    /* text-align: center; */
+    /* align-content: left; */
     border-radius: 25px;
+    
       
     }
-
-    /* #principal, #years, #rate_val{
-        margin:auto ;
-        border: 3px solid green; } */
-/* h1 {
-    color:grey;
-    margin-top: 5px;
-    padding-top: 25px;
-    padding-bottom: 2px;
-    text-align: center;
-    font-size: 38px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif
-
-} */
 h1{color:grey;font-family:verdana;}
+
+.rich{
+    text-align: left;
+}
+
+
+.htmlelements{
+
+     text-align: center;
+}
+
