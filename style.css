@@ -7,20 +7,15 @@
     width:500px;
     padding:20px;
     border-radius:25px;
-    /* text-align: center; */
-    /* align-content: left; */
-    border-radius: 25px;
-    
-      
+    border-radius: 25px; 
     }
-h1{color:grey;font-family:verdana;}
 
+h1{color:grey;font-family:verdana;}
+/* Footer Control */
 .rich{
     text-align: left;
 }
 
-
 .htmlelements{
-
      text-align: center;
 }

@@ -1,3 +1,4 @@
+//function to initiate onclick event when compute interest button is clicked
 function compute()
  {
     var principal = document.getElementById("principal").value;
@@ -16,10 +17,12 @@ function compute()
     var years = document.getElementById("years").value;
     var interest = principal * years * rate /100;
     var year = new Date().getFullYear()+parseInt(years);
-    var amount = interest;
+    var amount = interest; //need to define amount to calculation used in var interest
 
     //display message with calculated values after button is clicked
-    document.getElementById("result").innerHTML="If you deposit "+principal+",\<br\>at an interest rate of "+rate+"%\<br\>You will receive an amount of "+amount+",\<br\>in the year "+year+"\<br\>"
+    // <mark> was used to highlight words on the output </mark>
+    document.getElementById("result").innerHTML="If you deposit <mark>"+principal+"</mark>,\<br\>at an interest rate of <mark>"+rate+"%</mark>\<br\>You will receive an amount of <mark>"+amount+"</mark>,\<br\>in the year <mark>"+year+"</mark>\<br\>"
+    
 }
 //Function to set focus to Amount Box after validation box disappears
 function setFocusToTextBox(){
