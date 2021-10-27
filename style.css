@@ -19,3 +19,17 @@ h1{color:grey;font-family:verdana;}
 .htmlelements{
      text-align: center;
 }
+
+.table {
+    margin: auto;
+  }
+  
+  .result {
+    text-align: left;
+  }
+  
+  #rate {
+  width: auto;
+
+  }
+  
