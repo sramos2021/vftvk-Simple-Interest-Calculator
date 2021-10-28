@@ -16,20 +16,27 @@ h1{color:grey;font-family:verdana;}
     text-align: left;
 }
 
-.htmlelements{
-     text-align: center;
-}
+/* .htmlelements{
+     padding: 50px;
+} */
 
 .table {
     margin: auto;
   }
   
-  .result {
-    text-align: left;
+  #result {
+    padding-top: 100px;
   }
   
-  #rate {
-  width: auto;
-
+  .int{
+  /* width: auto; */
+    /* height: 1%; */
+    /* margin: auto; */
+    border: solid red 2px;
   }
-  
+   .btn {
+     margin-left: 22%;
+   }
+   .btnresults{
+     margin-left: 22%;
+   }
