@@ -1,6 +1,6 @@
-
  body {background-color:black;font-family:arial;color:white; height:600px;}
 
+/* Container for ALL HTML ELEMENTS */
 .maindiv {
     background-color:white;
     color: black;
@@ -10,33 +10,22 @@
     border-radius: 25px; 
     }
 
+    /* Header Color - Simple Interest Calculator */
 h1{color:grey;font-family:verdana;}
+
 /* Footer Control */
 .rich{
     text-align: left;
 }
-
-/* .htmlelements{
-     padding: 50px;
-} */
-
+/* Controls Table Data */
 .table {
-    margin: auto;
-  }
-  
-  #result {
-    padding-top: 100px;
-  }
-  
-  .int{
-  /* width: auto; */
-    /* height: 1%; */
-    /* margin: auto; */
-    border: solid red 2px;
-  }
-   .btn {
-     margin-left: 22%;
-   }
-   .btnresults{
-     margin-left: 22%;
-   }
+    margin-left: 15%;
+    }
+/* Access btn and result element for postitioning   */
+.btnresults{
+     margin-left: 15%;
+} 
+/* Access td for Amount Rate Year for postition   */
+.amt,.int,.yr{
+     padding-left: 45px;
+}
