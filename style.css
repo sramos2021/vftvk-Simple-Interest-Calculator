@@ -29,3 +29,7 @@ h1{color:grey;font-family:verdana;}
 .amt,.int,.yr{
      padding-left: 45px;
 }
+/* Add percent symbol when rate slider is moved from default */
+#rate_val::after{
+ content:"%"
+}
